@@ -297,3 +297,46 @@ ol {
   height: 100%;
   object-fit: cover;
 }
+
+.together__container {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.together__title {
+  font: var(--txt-preset-2-mobile);
+  letter-spacing: -2px;
+  color: var(--clr-neutral-900);
+}
+
+.together__list {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.together__item {
+  padding-left: 2.625rem;
+  font: var(--txt-preset-5);
+  color: var(--clr-neutral-700);
+  letter-spacing: -0.5px;
+  background-image: url(../images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.together__img-container {
+  width: 100%;
+  max-width: 23.75rem;
+  height: 19.9063rem;
+  overflow: hidden;
+  border-radius: .7656rem;
+}
+
+.together__img-mobile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
