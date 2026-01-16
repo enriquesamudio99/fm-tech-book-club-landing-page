@@ -535,3 +535,35 @@ ol {
 .pricing-card__button {
   height: 3.8125rem;
 }
+
+.testimonial {
+  margin-bottom: 4rem;
+}
+
+.testimonial__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testimonial__stars {
+  display: flex;
+  gap: .375rem;
+}
+
+.testimonial__star {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.testimonial__quote {
+  font: var(--txt-preset-3-mobile);
+  color: var(--clr-neutral-900);
+  letter-spacing: -1px;
+}
+
+.testimonial__author {
+  font: var(--txt-preset-5);
+  color: var(--clr-neutral-700);
+  letter-spacing: -0.5px;
+}
