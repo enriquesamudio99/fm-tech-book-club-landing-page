@@ -567,3 +567,76 @@ ol {
   color: var(--clr-neutral-700);
   letter-spacing: -0.5px;
 }
+
+.footer {
+  background-color: var(--clr-neutral-900);
+}
+
+.footer__container {
+  padding-top: 3rem;
+}
+
+.footer__title {
+  font: var(--txt-preset-2-mobile);
+  letter-spacing: -2px;
+  color: var(--clr-neutral-100);
+  text-align: center;
+}
+
+.footer__button {
+  margin-top: 2.5rem;
+}
+
+.footer__devs {
+  margin-top: 1.25rem;
+  margin-bottom: 4rem;
+}
+
+.footer__devs-content {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+.footer__devs-avatars {
+  width: 6.875rem;
+}
+
+.footer__devs-info {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  font: var(--txt-preset-7);
+  color: var(--clr-neutral-0);
+  letter-spacing: -1px;
+}
+
+.footer__devs-stars {
+  display: flex;
+  gap: .125rem;
+}
+
+.footer__devs-star {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.footer__socials {
+  border-top: 1px solid var(--clr-neutral-700);
+  padding: 1.4375rem 0 1.5rem;
+  color: var(--clr-neutral-0);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__copyright {
+  font: var(--txt-preset-7);
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
