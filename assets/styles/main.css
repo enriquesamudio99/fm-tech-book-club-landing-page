@@ -397,3 +397,51 @@ ol {
   height: 100%;
   object-fit: cover;
 }
+
+.journey__container {
+  margin-bottom: 4rem;
+  background: url(../images/pattern-light-bg.svg), var(--clr-neutral-100);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 1rem;
+  border-radius: .75rem;
+  overflow: hidden;
+}
+
+.journey__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.journey__title {
+  font: var(--txt-preset-2-mobile);
+  letter-spacing: -2px;
+  color: var(--clr-neutral-900);
+}
+
+.journey__steps {
+  display: grid;
+  gap: 2rem;
+}
+
+.journey__step-number {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--clr-neutral-900);
+  color: var(--clr-neutral-900);
+  border-radius: .25rem;
+  font: var(--txt-preset-6-mobile);
+  letter-spacing: -1px;
+}
+
+.journey__step-text {
+  margin-top: 1.25rem;
+  font: var(--txt-preset-6-mobile);
+  letter-spacing: -1px;
+  color: var(--clr-neutral-900);
+}
